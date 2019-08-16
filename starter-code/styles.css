@@ -1,0 +1,221 @@
+body {
+  font-family:  'Nunito Sans', sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #C12127;
+  padding-top: 15px;
+  height: 30px;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(32, 101,136);
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+/* Buttons */
+
+.butn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* Padding Sections */
+
+.pad-section {
+  padding: 8% 15%;
+}
+
+/* Nav Bar Section */
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.heart {
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-links li a {
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.top-left {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.top-left span {
+  margin-left: 15px;
+
+}
+
+/* Header Search Section */
+
+.search {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.search-header {
+  background-color: rgb(31, 82, 111);
+  border: none;
+  width: 80%;
+  height: 30px;
+  margin: 0 0 0 10px;
+}
+
+.btn-search {
+  background-color: rgb(31, 82, 111);
+  border: none;
+  color: rgb(255, 255, 255, 0.8);
+  margin-left: 0px;
+  padding: 1.5px 0 1.5px;
+}
+.img-logo {
+  width: 100px;
+  margin: 0px 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.8);
+  margin: 0px 15px;
+}
+
+.img-logo-bear {
+  width: 50px;
+  margin: 0px 5px 0 10px;
+}
+
+
+#bg-cityscape {
+  background-image: url(images/city-scape.svg);
+}
+
+.content {
+  width: 60%;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 7%;
+}
+
+.btn-header {
+  color: #ffffff;
+  background: #f09233;
+}
+
+.btn-header:hover {
+  background: #e67300;
+  text-decoration: none;
+}
+
+/* Collaboration Section */
+
+#collaboration {
+  background-color: rgb(39, 53, 71);
+  height: 500px;
+  display: flex;
+}
+
+.img-collaboration {
+  width: 700px;
+  padding-right: 40px;
+}
+
+.org-info {
+  float: right;
+  padding-left: 40px;
+}
+
+.list-info {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.btn-orgs {
+  color: #ffffff;
+  background: #cb3837;
+}
+
+.btn-orgs:hover {
+  background: #ab0000;
+  text-decoration: none;
+}
+
+/* Install NPM Section */
+
+#install-npm {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 700px;
+  margin-top: 0;
+}
+
+.install-info {
+  width: 500px;
+}
+
+.btn-install-npm {
+  color: #ffffff;
+  background: #314458;
+}
+
+.btn-install-npm:hover {
+  background: #365c82;
+  text-decoration: none;
+}
+
+/* Interaction Section */
+
+#interaction {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.inter-blocks {
+  width: 30%;
+  display: inline-block;
+  margin: 25px 20px;
+}
+
+.inter-blocks a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+

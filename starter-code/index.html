@@ -8,10 +8,12 @@
   <title>npm</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200|Nunito:700|Open+Sans&display=swap"
+    rel="stylesheet">
 
   <!-- CSS Stylesheet -->
-  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="styles.css">
+
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/05a8381518.js"></script>
 
@@ -34,64 +36,72 @@
   </nav>
 
   <!-- Header -->
-  <header>
-    <img class="img-logo" src="images/npm-logo.png" alt="logo npm">
+  <header id="bg-cityscape">
     <div class="search">
-      <input class="search-header" type="text" placeholder="Find Packages">
-      <button class="btn-search" type="button">
-        <i class="btn-search fas fa-search fa-2x"></i>
+      <img class="img-logo" src="images/npm-logo.png" alt="logo npm">
+      <input class="search-header" type="text" placeholder="  Find Packages">
+      <button class="btn-search" type="button"><i class="btn-search fas fa-search fa-2x"></i>
       </button>
+      <a class="link" href="#">sing up or log in</a>
+      <img class="img-logo-bear" src="images/bear-logo.png" alt="bear logo">
     </div>
-    <p class="log-in">sing up or log in</p>
-    <img class="bear-logo" src="images/bear-logo.png" alt="bear logo">
-    </section>
-
-    <section id="info">
+    <div class="content">
       <h1>Build amazing things</h1>
-      <p class="npm-info">npm is the package manager for Javascript and the world's largest software registry.
+      <p>npm is the package manager for Javascript and the world's largest <br> software registry.
         Discover packages of
-        reusable code - and assemble them in powerfull new ways</p>
-      <button class="butn-info" type="button">Sign up for npm</button>
-    </section>
-    <section id="collaboration">
-      <img src="images/collaboration.svg" alt="group of people giving hi-five to the bear">
+        reusable code ― and <br> assemble them in powerfull new ways.</p>
+      <button class="butn btn-header" type="button">Sign up for npm</button>
+    </div>
+  </header>
+
+  <section class="pad-section" id="collaboration">
+    <img class="img-collaboration" src="images/collaboration.svg" alt="group of people giving hi-five to the bear">
+    <div class="org-info">
       <h2>npm Orgs is powerful collaboration - for free</h2>
-      <ul>
+      <ul class="list-info">
         <li>Encourage code discovery and re-use within teams</li>
         <li>Publish and control access to your own namespace</li>
         <li>Manage publick and private code with the same workflow</li>
       </ul>
-      <button class="butn-orgs" type="button">Sign up for Orgs</button>
-      <p>or <a href="#">Learn more about Orgs</a> </p>
-    </section>
-    <section id="install-npm">
+      <button class="butn btn-orgs" type="button">Sign up for Orgs</button>
+      <p>or,<a class="link" href="#">Learn more about Orgs.</a> </p>
+    </div>
+  </section>
+
+  <section id="install-npm">
+    <div class="pad-section install-info">
       <h2>What is npm?</h2>
       <p>Use npm to install, share and distribute code; manage dependencies in your projects; and share & receive
         feedback with other.</p>
-      <button class="butn-install-npm" type="button">Install npm</button>
-    </section>
-    <section id="interaction">
+      <button class="butn btn-install-npm" type="button">Install npm</button>
+    </div>
+  </section>
+
+  <section class="pad-section" id="interaction">
+    <div>
       <h2>What can you make with 475,000 building blocks?</h2>
-      <p>The npm resgistry hosts almost half a million packages of free, reusable code - the largest software registry
-        inthe world.</p>
-      <article class="inter-blocks">
-        <img src="images/binoculars.svg" alt="binoculars">
-        <h3>Find</h3>
-        <p>Libraries like <a href="#">JQuery</a>, <a href="#">Bootstarp</a>, <a href="#">React</a>, and <a
-            href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>
-      </article>
-      <article class="inter-blocks">
-        <img src="images/mountain-flag.svg" alt="mountain-flag">
-        <h3>Discover</h3>
-        <p>Packages for mobile, IoT, front end, back end, robotics... everything you nees to start building amazing
-          things.</p>
-      </article>
-      <article class="inter-blocks">
-        <img src="images/backpack.svg" alt="forklift">
-        <h3>Build</h3>
-        <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
-      </article>
-    </section>
+    <p>The npm resgistry hosts almost half a million packages of free, reusable code - the largest software registry
+      inthe world.</p>
+    </div>
+    
+    <article class="inter-blocks">
+      <img src="images/binoculars.svg" alt="binoculars">
+      <h3>Find</h3>
+      <p>Libraries like <a href="#">JQuery</a>, <a href="#">Bootstarp</a>, <a href="#">React</a>, and <a
+          href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>
+    </article>
+    <article class="inter-blocks">
+      <img src="images/mountain-flag.svg" alt="mountain-flag">
+      <h3>Discover</h3>
+      <p>Packages for mobile, IoT, front end, back end, robotics... everything you nees to start building amazing
+        things.</p>
+    </article>
+    <article class="inter-blocks">
+      <img src="images/backpack.svg" alt="forklift">
+      <h3>Build</h3>
+      <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+    </article>
+  </section>
 
 </body>
 
